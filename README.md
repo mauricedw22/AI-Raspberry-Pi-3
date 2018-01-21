@@ -1,5 +1,5 @@
 # AI-Raspberry-Pi-3
-Easily turn your Raspberry pi into an AI camera. 
+Easily turn your Raspberry Pi 3 into an AI camera. 
 
 This project uses a motion sensor to detect movement, once movement is detected a photograph is taken and saved to a folder. This photograph is saved as a .png, the .png file is sent to IBM Watson for classification. The response is parsed, in the case of this particular project if the .png contains a "Person" classification, meaning if a picture of a person was taken, the applicaton will use the Twilio SMS service and send an SMS message to a number of your choosing. If the .png is not classified as a person no SMS message will be sent. Viola, you have a low cost AI camera build by you in a short amount of time.  
 
