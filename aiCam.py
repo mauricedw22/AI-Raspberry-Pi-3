@@ -46,9 +46,4 @@ if pir.wait_for_motion() == True:
         to    = "PHONE-YOU-WANT-TO-REACH",
         from_ = "YOUR-TWILIO-NUMBER",
         body  = "Someone tripped the alarm")
-
-   
-   
-
-
-
+      
