@@ -30,5 +30,6 @@ Getting up an running
 1. Install pip on the Raspberry Pi if you don't already have it installed. 
 2. Use sudo apt-get update to first update.
 3. Use sudo apt-get install python-pip
-4. sudo pip install twilio 
-5. This is everything that you need to run this project. If you run into compatibility issues with the code simply install or update the packages that Python complains about.
+4. sudo pip install twilio
+5. Create this file structure ---> /home/pi/Desktop/motionCam/images so that you can store the .png that is taken.  
+6. This is everything that you need to run this project. If you run into compatibility issues with the code simply install or update the packages that Python complains about.
