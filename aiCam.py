@@ -31,8 +31,8 @@ if pir.wait_for_motion() == True:
    url   = 'https://gateway-a.watsonplatform.net/visual-recognition/api/v3/classify?api_key='YOUR-WATSON-API-KEY-HERE'&version=2016-05-20'
    files = {'images_file': open('/home/pi/Desktop/motionCam/images/image.png','rb')}
    req   = requests.post(url, files=files)
-
-   data = req.json()
+   # get the json response from IBM 
+   data  = req.json()
 
    # workaround for Python returning the JSON object as a dictionary that is very hard to work with.
    # find() function returns -1 if the string is not matched. Index of string if it is matched.
